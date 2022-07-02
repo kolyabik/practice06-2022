@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorWhite"
+    tools:context=".Contacts">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorWhite"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button_backside">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text="Контакты"
+                android:textColor="@color/ColorBlack"
+                android:textSize="32dp" />
+
+
+        </FrameLayout>
+
+
+        <!--
+        Контакты
+        -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/schedule_text_backside">
+
+            <TextView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text='Местоположение\nул. Ильинская, д.69'
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/schedule_text_backside"
+
+            >
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text='Справочный телефон \n(831)430-07-61'
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/schedule_text_backside">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text='Факс \n(831) 434-11-81'
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/schedule_text_backside">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text='Email\nkcson@nizh.soc.kreml.nnov.ru'
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_text">
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/background_text_upper"
+                android:gravity="center"
+                android:text='Открыть сайт центра'
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23dp" />
+
+        </FrameLayout>
+
+        <!--
+        Переход в начало
+        -->
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button_backside">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background_button_upside"
+            android:gravity="center"
+            android:text="В начало"
+            android:textColor="@color/ColorPrimaryDarker"
+            android:textSize="28dp" />
+
+    </FrameLayout>
+
+</FrameLayout>
