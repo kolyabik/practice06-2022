@@ -226,12 +226,12 @@
         android:background="@drawable/background_button_backside">
 
         <Button
+            android:id="@+id/toStart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@drawable/background_text_upper"
             android:gravity="center"
-            android:onClick="toStart"
             android:text="В начало"
             android:textColor="@color/ColorPrimaryDarker"
             android:textSize="28dp" />

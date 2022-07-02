@@ -70,12 +70,12 @@
             android:background="@drawable/background_main_button_backside">
 
             <Button
+                android:id="@+id/toShedule"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/background_button_upside"
                 android:fontFamily="@font/aref_ruqaa"
-                android:onClick="toSchedule"
                 android:text="Время работы центра"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="25dp" />
@@ -93,12 +93,12 @@
             android:background="@drawable/background_main_button_backside">
 
             <Button
+                android:id="@+id/toContacts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/background_button_upside"
                 android:fontFamily="@font/aref_ruqaa"
-                android:onClick="toContact"
                 android:text="Контакты"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="25dp" />
@@ -112,12 +112,12 @@
             android:background="@drawable/background_main_button_backside">
 
             <Button
+                android:id="@+id/toInformation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/background_button_upside"
                 android:fontFamily="@font/aref_ruqaa"
-                android:onClick="toInformation"
                 android:text="О центре"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="25dp" />
